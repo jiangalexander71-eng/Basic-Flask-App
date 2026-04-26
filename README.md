@@ -81,4 +81,4 @@ python -m pytest tests/ -v
 ---
 
 ### What I Learned
-This project covers the entire lifecycle of modern application development from the first line of code to live deployment with monitoring. Starting from a blank bash terminal, this project touches Linux system administration, Python development, containerization, version control, automated testing, CI/CD popelines, cloud deployment, and automated tracking.
+This project covers the entire lifecycle of modern application development from the first line of code to live deployment with monitoring. Starting from a blank bash terminal, this project touches Linux system administration, Python development, containerization, version control, automated testing, CI/CD popelines, cloud deployment, and automated updates.
