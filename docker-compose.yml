@@ -1,0 +1,13 @@
+#version of docker compose
+version: "3.9"
+#defines all containers which are called services
+services:
+  #name of the container
+  web:
+    #build image from current directory
+    build: .
+    #maps port 5000 of container to port 5000 of host machine
+    ports:
+      - "5000:5000"
+    #restarts the container unless stopped manually
+    restart: unless-stopped
